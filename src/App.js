@@ -29,9 +29,9 @@ console.log(data)
            for (const key in data) {
                loadedMovies.push({
                    id: key,
-                   title: data[key].openingText,
-                   openingText: data[key].releaseDate,
-                   releaseDate: data[key].openingText,
+                   title: data[key].title,
+                   openingText: data[key].openingText,
+                   releaseDate: data[key].releaseDate,
                });
            }
 
